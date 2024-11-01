@@ -64,6 +64,7 @@ body {
 .mynavbar .offcanvas-title {
     font-family: "Caveat", serif;
     font-size: 3.2rem;
+    font-weight: bold;
 }
 
 .mynavbar .nav-link {
