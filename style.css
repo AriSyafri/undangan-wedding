@@ -60,6 +60,17 @@ body {
     color: white;
 }
 
+.mynavbar .navbar-brand,
+.mynavbar .offcanvas-title {
+    font-family: "Caveat", serif;
+    font-size: 3.2rem;
+}
+
+.mynavbar .nav-link {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 
 /* media query */
 /* laptop */
@@ -83,6 +94,12 @@ body {
     .simply-countdown>.simply-section {
         padding: 60px;
         margin: 5px;
+    }
+
+    .mynavbar .nav-link {
+        font-size: 2rem;
+        text-transform: uppercase;
+        text-align: center;
     }
 }
 
