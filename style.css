@@ -8,7 +8,7 @@ body {
     font-size: 1.2rem;
     font-family: 'Work Sans', sans-serif;
 
-    min-height: 2000px;
+    min-height: 3000px;
 }
 
 .hero::before {
@@ -90,7 +90,8 @@ body {
     padding-bottom: 5rem;
 }
 
-.home h2 {
+.home h2,
+.info h2 {
     color: var(--pink);
     font-family: "Caveat", serif;
     font-size: 5rem;
@@ -140,6 +141,22 @@ body {
     margin: auto;
     color: var(--pink);
 }
+
+.info {
+    background-color: var(--bg);
+    color: white;
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+}
+
+.info .alamat {
+    font-size: 1.1rem;
+}
+
+.info .description {
+    font-size: 1rem;
+    font-weight: 300;
+} 
 
 
 /* media query */
