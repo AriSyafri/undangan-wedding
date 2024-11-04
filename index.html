@@ -39,7 +39,7 @@
 
       </div>
 
-      <a href="#undangan" class="btn btn-lg mt-4">Lihat Undangan</a>
+      <a href="#undangan" class="btn btn-lg mt-4" onclick="enableScroll()">Lihat Undangan</a>
     </main>
   </section>
 
@@ -360,6 +360,9 @@
   </script>
 
   <script>
+
+const rootElement = document.querySelector(":root");
+
     
     function disableScroll() {
       scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -369,9 +372,14 @@
         window.scrollTo(scrollTop, scrollLeft);
       }
 
-      const rootElement = document.querySelector(":root");
-
+      
       rootElement.style.scrollBehavior = 'auto';
+    }
+    
+    function enableScroll(){
+      window.onscroll = function(){}
+      
+      rootElement.style.scrollBehavior = 'smooth';
     }
 
     disableScroll();
