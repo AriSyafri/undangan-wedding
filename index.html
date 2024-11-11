@@ -488,6 +488,7 @@
   <script>
     const rootElement = document.querySelector(":root");
 
+    const audioIconWrapper = document.querySelector('.audio-icon-wrapper')
 
     function disableScroll() {
       scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -511,6 +512,7 @@
     function playAudio() {
       const song = document.querySelector('#bgm');
       song.volume = 0.5;
+      audioIconWrapper.style.display = 'flex';
       song.play();
     }
 
