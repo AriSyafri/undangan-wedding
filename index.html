@@ -39,7 +39,7 @@
 
       </div>
 
-      <a href="#undangan" class="btn btn-lg mt-4" onclick="enableScroll()">Lihat Undangan</a>
+      <a href="#home" class="btn btn-lg mt-4" onclick="enableScroll()">Lihat Undangan</a>
     </main>
   </section>
 
@@ -427,7 +427,7 @@
     <source src="audio/wedding1.mp3" type="audio/mp3">
   </audio>
 
-  <div class="audio-icon-wrapper" style="">
+  <div class="audio-icon-wrapper" style="display: none;">
     <i class="bi bi-disc"></i>
   </div>
 
@@ -504,12 +504,15 @@
     function enableScroll() {
       window.onscroll = function () {}
       rootElement.style.scrollBehavior = 'smooth';
-      localStorage.setItem('opened', 'true');
+      // localStorage.setItem('opened', 'true');
     }
 
-    if (!localStorage.getItem('opened')) {
-      disableScroll();
-    }
+    // if (!localStorage.getItem('opened')) {
+    //   disableScroll();
+    // }
+
+    disableScroll();
+
   </script>
 
   <script>
