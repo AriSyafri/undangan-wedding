@@ -1,6 +1,6 @@
 
 # Simple Project
-Merupakan project hasil belajar ngobar wpu untuk project wedding undangan.
+Merupakan project hasil belajar ngobar yt wpu untuk project wedding undangan.
 
 ## Screenshoot Hasil
 ![Preview-1](screenshot/Screenshot1.png)
